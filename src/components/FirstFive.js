@@ -26,7 +26,12 @@ const FirstFive = () => {
         })
         setArr(sortPop);
     }
-
+    let deleteMe = (name) => {
+        let deleted = arr.filter((person) => person.name != name);
+        setArr(deleted)
+        console.log(deleted);
+        // element aus dem State über den Button entfernen
+    }
     return (
         <div>
             <div>
@@ -41,6 +46,8 @@ const FirstFive = () => {
                         pictureUrl={ele.pictureUrl}
                         name={ele.name}
                         popularity={ele.popularity.toFixed(2)}
+                        del={() => deleteMe(ele.name)}
+
                     />
                 )
             }
