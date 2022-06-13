@@ -7,11 +7,11 @@ const ContactBase = () => {
     return (
         <div>
 
-            {/* <ContactBaseItems
+            <ContactBaseItems
                 pictureUrl={data[randi].pictureUrl}
                 name={data[randi].name}
                 popularity={data[randi].popularity.toFixed(2)}
-            /> */}
+            />
 
         </div>
     );
