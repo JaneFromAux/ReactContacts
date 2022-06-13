@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+.contactCard {
+  background: #867772;
+  color: deepskyblue;
+  font-size: 5rem;
+  border: 10px solid deepskyblue;
+  border-radius: 40px;
+  width: 40vw;
+  margin: 4vh auto;
+  padding: 3vh 3vw;
+}
+
+img {
+  width: 20vw;
+  border: 5px solid deepskyblue;
+  border-radius: 40px;
+}
